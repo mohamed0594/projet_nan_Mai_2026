@@ -1,0 +1,96 @@
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+
+.left {
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+
+.right {
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.bloc_logo{
+    color: red;
+    display: flex;
+}
+.bloc_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    height: 90px;     
+    width: auto;   
+    border-radius: 10px;    
+   
+}
+
+
+.bloc_logo ul {
+    display: flex;
+    list-style: none;
+    gap: 45px; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bloc_logo ul li {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.bloc_logo ul li:hover {
+    color: #007bff;
+}
+main{
+    position: relative;
+}
+main img{
+    width: 100%;
+    height: 700px;
+    border: 3px solid #f9f9f9;
+}
+.card-one-momo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 700px;
+    padding: 40px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.menu-card{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+  
+  
+}
+.item{
+    border: 1px solid red;
+}
+
