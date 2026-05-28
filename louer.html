@@ -1,252 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Louer</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Louer un bien - Immobilier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="louer.css">
 </head>
 <body>
-     <div class="first">
-    <div class="left">publier vos annonces immobilières</div>
-    <div class="right">créer un compte immobilier</div>
-</div>
-<div class="bloc_logo">
-  <div class="logo">
-    <img src="images/logo.jpeg" alt="logo">
-</div>
-    <ul>
-       <li><a href="index.html">Accueil</a></li>
-        <li><a href="louer.html">Louer</a></li>
-        <li><a href="reservation.html">Reservation</a></li>
-         <li><a href="A propos.html">A Propos</a></li>
-    </ul>
-</div>
 
-<div class="st-america">
- <h1>Découvrez ici les maisons de vos rêves, adaptées à tous les budgets et tous les styles de vie.</h1>
- <h3>Vos studio Americains</h3>
-  <div class="sidib">
+   <div class="first">
+        <div class="left">publier vos annonces immobilières</div>
+        <div class="right">créer un compte immobilier</div>
+    </div>
 
-    <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
+    <div class="bloc_logo">
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="louer.html" class="active">Louer</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="A propos.html">A Propos</a></li>
+        </ul>
+    </div>
+
+    <div class="louer-hero">
+        <img src="images/fondecransj.jpg" alt="Bannière Location">
+        <div class="hero-zokou">
+            <h1>Trouvez votre future location</h1>
+            <p>Des appartements et villas d'exception disponibles dès maintenant</p>
         </div>
     </div>
 
-    <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
+    <div class="filter-zebi">
+        <div class="filter-container">
+            <div class="filter-pokou">
+                <label><i class="fa-solid fa-location-dot"></i> Ville / Quartier</label>
+                <input type="text" placeholder="Ex: Marcory, Cocody...">
+            </div>
+            <div class="filter-group">
+                <label><i class="fa-solid fa-house"></i> Type de bien</label>
+                <select>
+                    <option value="">Tous les types</option>
+                    <option value="appartement">Appartement</option>
+                    <option value="villa">Villa</option>
+                    <option value="studio">Studio meublé</option>
+                </select>
+            </div>
+            <div class="filter-pokou">
+                <label><i class="fa-solid fa-money-bill-wave"></i> Budget Max (FCFA)</label>
+                <input type="number" placeholder="Ex: 500 000">
+            </div>
+            <button class="btn-filter"><i class="fa-solid fa-magnifying-glass"></i> Rechercher</button>
         </div>
     </div>
 
-    <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-     <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-     <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-     <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-     <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-            
-        </div>
-    </div>
-     <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-     <div class="sous-div">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-
-</div>
-   <!-- deuxieme et dernier devi -->
-    <div class="sidibe">
-      <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-
-      <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i>3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-        </div>
-    </div>
-    <div class="sous-divide">
+    <main class="rent-container">
+        <h2 class="section-title">Nos locations disponibles</h2>
         
-        <img src="images/appart_luxe.jpg">
-        <div class="info-sous-div">
-            <span><i class="fa-solid fa-bed"></i> 3</span>
-            <span><i class="fa-solid fa-bath"></i> 2</span>
-            <span><i class="fa-solid fa-ruler-combined"></i> 320m²</span>
-            
-        </div>
-      
-    </div>
-    </div>
-      <button id="love-boutton">Louer-ici</button>
- </div>
- <div class="cour-commune">
-    
-    <div class="sous-commune">
-        
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button class="sorbr">Louer</button>
-       
-    </div>
-     <div class="sous-commune">
-        <img src="images/appart_luxe.jpg">
-        <p>cour commune: 45000 FCFA</p>
-        <p>Koumassi soweto</p>
-        <button>Louer</button>
-       
-    </div>
+        <div class="rent-grid">
 
- </div>
- 
+            <div class="img-photo">
+                <span class="ville">Marcory Zone4</span>
+                <img src="images/appart_luxe.jpg" alt="Appartement">
+                <div class="info-card">
+                    <h3>Appartement de luxe meublé</h3>
+                    <p class="prix">1 200 000 FCFA / mois</p>
+                    <button class="btn-louer">Louer</button>
+                    <div class="details">
+                        <span><i class="fa-solid fa-bed"></i> 2 Ch</span>
+                        <span><i class="fa-solid fa-bath"></i> 2 Sdb</span>
+                        <span><i class="fa-solid fa-ruler-combined"></i> 120m²</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-photo">
+                <span class="ville">Cocody RTI</span>
+                <img src="images/cinq.jpg" alt="Villa">
+                <div class="info-card">
+                    <h3>Duplex moderne avec jardin</h3>
+                    <p class="prix">2 500 000 FCFA / mois</p>
+                    <button class="btn-louer">Louer</button>
+                    <div class="details">
+                        <span><i class="fa-solid fa-bed"></i> 4 Ch</span>
+                        <span><i class="fa-solid fa-bath"></i> 3 Sdb</span>
+                        <span><i class="fa-solid fa-ruler-combined"></i> 250m²</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-photo">
+                <span class="ville">Bingerville</span>
+                <img src="images/six.jpg" alt="Villa">
+                <div class="info-card">
+                    <h3>Villa basse de standing</h3>
+                    <p class="prix">800 000 FCFA / mois</p>
+                    <button class="btn-louer">Louer</button>
+                    <div class="details">
+                        <span><i class="fa-solid fa-bed"></i> 3 Ch</span>
+                        <span><i class="fa-solid fa-bath"></i> 2 Sdb</span>
+                        <span><i class="fa-solid fa-ruler-combined"></i> 180m²</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-photo">
+                <span class="ville">Jacqueville</span>
+                <img src="images/sept.jpg" alt="Appartement Beach">
+                <div class="info-card">
+                    <h3>Appartement Beach en bordure de mer</h3>
+                    <p class="prix">150 000 FCFA / nuit</p>
+                    <button class="btn-louer">Louer</button>
+                    <div class="details">
+                        <span><i class="fa-solid fa-bed"></i> 2 Ch</span>
+                        <span><i class="fa-solid fa-bath"></i> 1 Sdb</span>
+                        <span><i class="fa-solid fa-ruler-combined"></i> 110m²</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-photo">
+                <span class="ville">Riviera M'badon</span>
+                <img src="images/resi_modernes.jpg" alt="Résidence">
+                <div class="info-card">
+                    <h3>Studio Américain Chic</h3>
+                    <p class="prix">450 000 FCFA / mois</p>
+                    <button class="btn-louer">Louer</button>
+                    <div class="details">
+                        <span><i class="fa-solid fa-bed"></i> 1 Ch</span>
+                        <span><i class="fa-solid fa-bath"></i> 1 Sdb</span>
+                        <span><i class="fa-solid fa-ruler-combined"></i> 75m²</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-photo">
+                <span class="ville">Angré 7e Tranche</span>
+                <img src="images/maisfami.jpg" alt="Maison">
+                <div class="info-card">
+                    <h3>Appartement 3 Pièces Lumineux</h3>
+                    <p class="prix">350 000 FCFA / mois</p>
+                    <button class="btn-louer">Louer</button>
+                    <div class="details">
+                        <span><i class="fa-solid fa-bed"></i> 2 Ch</span>
+                        <span><i class="fa-solid fa-bath"></i> 2 Sdb</span>
+                        <span><i class="fa-solid fa-ruler-combined"></i> 130m²</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h3>À propos</h3>
+                <p>Nous sommes une plateforme immobilière spécialisée dans la vente et la location de biens fiables, sécurisés et adaptés à tous les budgets.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html" style="color: #ccc;">Accueil</a></li>
+                    <li><a href="page_inscrip.html" style="color: #ccc;">Acheter</a></li>
+                    <li><a href="louer.html" style="color: #ccc;">Louer</a></li>
+                    <li><a href="#" style="color: #ccc;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-phone"></i> +225 05 94 03 74 10</p>
+                <p><i class="fa-solid fa-envelope"></i> doumbiamohamedassorb@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Abidjan, Côte d’Ivoire</p>
+            </div>
+            <div class="footer-box">
+                <h3>Suivez-nous</h3>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Immobilier - Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
 </html>

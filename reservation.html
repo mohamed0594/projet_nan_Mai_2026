@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Réservation - Immobilier</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-     <div class="first">
-    <div class="left">publier vos annonces immobilières</div>
+
+   <div class="first">
+    <div class="left">
+        publier vos annonces immobilières
+
+    </div>
     <div class="right">créer un compte immobilier</div>
 </div>
 <div class="bloc_logo">
@@ -17,11 +22,169 @@
     <img src="images/logo.jpeg" alt="logo">
 </div>
     <ul>
-       <li><a href="index.html">Accueil</a></li>
+        <li><a href="index.html">Accueil</a></li>
         <li><a href="louer.html">Louer</a></li>
         <li><a href="reservation.html">Reservation</a></li>
          <li><a href="A propos.html">A Propos</a></li>
+    
     </ul>
 </div>
+
+    <main class="conteneur-fiche">
+        <div class="boite-fiche">
+            
+            <div class="entete-fiche">
+                <h2><i class="fa-solid fa-file-invoice"></i> Fiche de Renseignement</h2>
+                <p>Veuillez fournir ces informations pour l'étude de votre dossier de location.</p>
+            </div>
+
+            <form class="formulaire-fiche">
+                
+                <div class="titre-section"> Situation Civile</div>
+                
+                <div class="ligne-formulaire">
+                    <div class="groupe-champ">
+                        <label> Nom complet <span class="obligatoire">*</span></label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Ex: kabore Maham " required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ligne-formulaire deux-colonnes">
+                    <div class="groupe-champ">
+                        <label>Situation matrimoniale <span class="obligatoire">*</span></label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-heart"></i>
+                            <select required>
+                                <option value="celibataire">Célibataire</option>
+                                <option value="marie">Marié(e)</option>
+                                <option value="divorce">Divorcé(e)</option>
+                                <option value="veuf">Veuf(ve)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="groupe-champ">
+                        <label>Nombre d'enfants à charge</label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-child"></i>
+                            <input type="number" min="0" placeholder="0">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="titre-section">Situation Professionnelle</div>
+
+                <div class="ligne-formulaire deux-colonnes">
+                    <div class="groupe-champ">
+                        <label>Profession / Poste <span class="obligatoire">*</span></label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <input type="text" placeholder="Ex: Comptable, Commerçant" required>
+                        </div>
+                    </div>
+                    <div class="groupe-champ">
+                        <label>Type de contrat <span class="obligatoire">*</span></label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-file-contract"></i>
+                            <select required>
+                                <option value="cdi">CDI</option>
+                                <option value="cdd">CDD / Intérim</option>
+                                <option value="independant">À son propre compte</option>
+                                <option value="fonctionnaire">Fonctionnaire</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ligne-formulaire">
+                    <div class="groupe-champ">
+                        <label>Revenu mensuel approximatif (FCFA) <span class="obligatoire">*</span></label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <input type="text" placeholder="Ex: 350 000" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="titre-section">Garanties & Durée</div>
+
+                <div class="ligne-formulaire">
+                    <div class="groupe-champ">
+                        <label>Durée de location souhaitée <span class="obligatoire">*</span></label>
+                        <div class="zone-saisie">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                            <select required>
+                                <option value="6-mois">6 Mois</option>
+                                <option value="1-an">1 An</option>
+                                <option value="plus-1-an">Plus d'un an</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ligne-formulaire">
+                    <div class="groupe-champ">
+                        <label>Commentaires ou précisions particulières</label>
+                        <div class="zone-saisie">
+                            <textarea rows="3" placeholder="Ajoutez des détails sur votre garant, vos souhaits..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="bouton-valider">Soumettre ma fiche</button>
+            </form>
+
+        </div>
+    </main>
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h3>À propos</h3>
+            <p>
+                Nous sommes une plateforme immobilière spécialisée dans la vente et la location de biens fiables,
+                sécurisés et adaptés à tous les budgets.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Liens rapides</h3>
+            <ul>
+                <li>Accueil</li>
+                <li>Acheter</li>
+                <li>Louer</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p><i class="fa-solid fa-phone"></i> +225 05 94 03 74 10</p>
+            <p><i class="fa-solid fa-envelope"></i> doumbiamohamedassorb@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Abidjan, Côte d’Ivoire</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Suivez-nous</h3>
+            <div class="socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Immobilier - Tous droits réservés</p>
+    </div>
+
+</footer>
+
 </body>
 </html>

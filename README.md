@@ -22,4 +22,4 @@ Technologies utilisées
 - Font Awesome (icônes)
 - Git & GitHub
 
- DOUMBIA MOHAMED AMINE FOUTYL : ’expertise immobilière au service de votre avenir
+ DOUMBIA MOHAMED AMINE FOUTY : ’expertise immobilière au service de votre avenir.
